@@ -1,6 +1,5 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+mod hardware_interface;
+mod n_rf24_l01_spi;
 
 #[cfg(test)]
 mod tests {
